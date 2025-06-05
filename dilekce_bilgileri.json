@@ -1,0 +1,108 @@
+[
+    {
+        "dosya_adi": "case9.pdf",
+        "Ad Soyad": "Caner Arslan",
+        "Adres veya bölge bilgisi": "Ortahisar/Trabzon",
+        "Tarih aralıkları": [
+            "Haziran'da",
+            "1 Haziran'da"
+        ],
+        "Kurum ismi": "YETKİLİ MAKAM",
+        "Olay konusu": "YOL SORUNU",
+        "Talep": "Mağduriyetimin giderilmesini ve açıklama yapılmasını talep ediyorum."
+    },
+    {
+        "dosya_adi": "case8.pdf",
+        "Ad Soyad": "Fatma Şen",
+        "Adres veya bölge bilgisi": "Palandöken/Erzurum",
+        "Tarih aralıkları": [
+            "Kış aylarında"
+        ],
+        "Kurum ismi": "MÜDÜRLÜK",
+        "Olay konusu": "DOĞALGAZ SORUNU",
+        "Talep": "Gereğinin yapılmasını rica  ederim."
+    },
+    {
+        "dosya_adi": "case10.pdf",
+        "Ad Soyad": "Mehmet Öz",
+        "Adres veya bölge bilgisi": "Gölbaşı/Ankara",
+        "Tarih aralıkları": [],
+        "Kurum ismi": "YETKİLİ MAKAM",
+        "Olay konusu": "PARK SORUNU",
+        "Talep": "Talep net olarak belirlenemedi."
+    },
+    {
+        "dosya_adi": "case6.pdf",
+        "Ad Soyad": "Aysun Kaya",
+        "Adres veya bölge bilgisi": "Karabağlar/İzmir",
+        "Tarih aralıkları": [],
+        "Kurum ismi": "SAYIN BELEDIYE",
+        "Olay konusu": "YOL SORUNU",
+        "Talep": "Onarımının yapılmasını talep ediyorum."
+    },
+    {
+        "dosya_adi": "case7.pdf",
+        "Ad Soyad": "Burak Duman",
+        "Adres veya bölge bilgisi": "Yıldırım/Bursa",
+        "Tarih aralıkları": [
+            "üç aydır"
+        ],
+        "Kurum ismi": "Belirsiz.",
+        "Olay konusu": "SU KESİNTİSİ",
+        "Talep": "Incelenmesini rica ediyorum."
+    },
+    {
+        "dosya_adi": "case5.pdf",
+        "Ad Soyad": "İsmail Karaca",
+        "Adres veya bölge bilgisi": "Selçuklu/Konya",
+        "Tarih aralıkları": [
+            "geceleri"
+        ],
+        "Kurum ismi": "İLGİLİ BİRİM",
+        "Olay konusu": "GÜRÜLTÜ",
+        "Talep": "Talep net olarak belirlenemedi."
+    },
+    {
+        "dosya_adi": "case4.pdf",
+        "Ad Soyad": "Zehra Altın",
+        "Adres veya bölge bilgisi": "Merkez/Tokat",
+        "Tarih aralıkları": [
+            "Geçtiğimiz ay"
+        ],
+        "Kurum ismi": "VALILIK",
+        "Olay konusu": "Belirsiz Konu",
+        "Talep": "Konunun dikkate alınmasını arz ederim."
+    },
+    {
+        "dosya_adi": "case1.pdf",
+        "Ad Soyad": "Ali Demirtaş",
+        "Adres veya bölge bilgisi": "Bahçelievler/İstanbul",
+        "Tarih aralıkları": [
+            "Her gün 20:00",
+            "iki haftadır"
+        ],
+        "Kurum ismi": "YETKİLİ MAKAM",
+        "Olay konusu": "ELEKTRİK KESİNTİSİ",
+        "Talep": "Gereğinin yapılmasını arz ederim."
+    },
+    {
+        "dosya_adi": "case3.pdf",
+        "Ad Soyad": "Serkan Güler",
+        "Adres veya bölge bilgisi": "Keçiören/Ankara",
+        "Tarih aralıkları": [
+            "üç aydır"
+        ],
+        "Kurum ismi": "Belirsiz.",
+        "Olay konusu": "ELEKTRİK KESİNTİSİ",
+        "Talep": "Denetleme yaparak gerekli işlemleri başlatmasını talep ediyorum."
+    },
+    {
+        "dosya_adi": "case2.pdf",
+        "Ad Soyad": "Merve Uysal",
+        "Adres veya bölge bilgisi": "Erenköy/Kadıköy",
+        "Tarih aralıkları": [],
+        "Kurum ismi": "DEĞERLI BELEDIYE",
+        "Olay konusu": "ÇÖP SORUNU",
+        "Talep": "Yapılmasını ve yeni konteynerlerin yerleştirilmesini rica ediyorum."
+    }
+]

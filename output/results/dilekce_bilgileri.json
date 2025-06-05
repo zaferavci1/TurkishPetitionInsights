@@ -1,0 +1,236 @@
+[
+    {
+        "dosya_adi": "case9.pdf",
+        "Ad Soyad": "Caner Arslan",
+        "Adres": "Ortahisar/Trabzon",
+        "Tarih(ler)": [
+            "Haziran'da",
+            "1 Haziran'da"
+        ],
+        "Kurum": "Sayın İlgili",
+        "Konu": "YOL SORUNU",
+        "Talep": "Mağduriyetimin giderilmesini ve açıklama yapılmasını talep ediyorum",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "TEKRARLAYAN_SORUN",
+                "açıklama": "Sorunun düzenli olarak tekrarlandığına işaret ediyor.",
+                "tetikleyen_ifade": "sürekli"
+            },
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "Mağdur"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case8.pdf",
+        "Ad Soyad": "Fatma Şen",
+        "Adres": "Palandöken/Erzurum",
+        "Tarih(ler)": [
+            "Kış aylarında"
+        ],
+        "Kurum": "Sayın Müdürlük",
+        "Konu": "DOĞALGAZ SORUNU",
+        "Talep": "Gereğinin yapılmasını rica  ederim",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "risk"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case10.pdf",
+        "Ad Soyad": "Mehmet Öz",
+        "Adres": "Gölbaşı/Ankara",
+        "Tarih(ler)": [],
+        "Kurum": "Sayın Yetkili",
+        "Konu": "PARK SORUNU",
+        "Talep": "TALEP BELİRTİLMEMİŞ",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "TEKRARLAYAN_SORUN",
+                "açıklama": "Sorunun düzenli olarak tekrarlandığına işaret ediyor.",
+                "tetikleyen_ifade": "Defalarca"
+            },
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "acil"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case6.pdf",
+        "Ad Soyad": "Aysun Kaya",
+        "Adres": "Karabağlar/İzmir",
+        "Tarih(ler)": [],
+        "Kurum": "Belediye Başkanı",
+        "Konu": "YOL SORUNU",
+        "Talep": "Bu yolların bakım ve \nonarımının yapılmasını talep ediyorum",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "çocuk"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case7.pdf",
+        "Ad Soyad": "Burak Duman",
+        "Adres": "Yıldırım/Bursa",
+        "Tarih(ler)": [
+            "üç aydır"
+        ],
+        "Kurum": "İLGİLİ KURUM",
+        "Konu": "SU KESİNTİSİ",
+        "Talep": "Abonelik numarasıyla kontrol edilip ölçüm cihazının arızalı olup olmadığının \nincelenmesini rica ediyorum",
+        "Çıkarımlar": [],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Samimi",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case5.pdf",
+        "Ad Soyad": "İsmail Karaca",
+        "Adres": "Selçuklu/Konya",
+        "Tarih(ler)": [
+            "geceleri"
+        ],
+        "Kurum": "İlgili Birim",
+        "Konu": "GÜRÜLTÜ",
+        "Talep": "Lütfen parkta düzenli güvenlik deneti mi yapılmasını \nsağlayınız",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "güvenlik"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Kibar Şikâyet",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case4.pdf",
+        "Ad Soyad": "Zehra Altın",
+        "Adres": "Merkez/Tokat",
+        "Tarih(ler)": [
+            "Geçtiğimiz ay"
+        ],
+        "Kurum": "Sayın Valilik Makamına",
+        "Konu": "DİĞER",
+        "Talep": "TALEP BELİRTİLMEMİŞ",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "acil"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Resmî ve Nesnel",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case1.pdf",
+        "Ad Soyad": "Ali Demirtaş",
+        "Adres": "Bahçelievler/İstanbul",
+        "Tarih(ler)": [
+            "iki haftadır",
+            "Her gün 20:00"
+        ],
+        "Kurum": "Sayın Yetkili",
+        "Konu": "ELEKTRİK KESİNTİSİ",
+        "Talep": "TALEP BELİRTİLMEMİŞ",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "TEKRARLAYAN_SORUN",
+                "açıklama": "Sorunun düzenli olarak tekrarlandığına işaret ediyor.",
+                "tetikleyen_ifade": "her akşam"
+            },
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "mağdur"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Resmî ve Nesnel",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case3.pdf",
+        "Ad Soyad": "Serkan Güler",
+        "Adres": "Keçiören/Ankara",
+        "Tarih(ler)": [
+            "üç aydır"
+        ],
+        "Kurum": "İLGİLİ KURUM",
+        "Konu": "ELEKTRİK KESİNTİSİ",
+        "Talep": "Belediyenin veya ilgili kurumun \ndenetleme yaparak gerekli işlemleri başlatmasını talep ediyorum",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "TEKRARLAYAN_SORUN",
+                "açıklama": "Sorunun düzenli olarak tekrarlandığına işaret ediyor.",
+                "tetikleyen_ifade": "Defalarca"
+            },
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "hasta"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Sakin",
+            "dil_resmiyeti": "Samimi",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "case2.pdf",
+        "Ad Soyad": "Merve Uysal",
+        "Adres": "Erenköy/Kadıköy",
+        "Tarih(ler)": [],
+        "Kurum": "Değerli Belediye Yetkilileri",
+        "Konu": "ÇÖP SORUNU",
+        "Talep": "Lütfen bu konuda bir temizlik çalışması \nyapılmasını ve yeni konteynerlerin yerleştirilmesini rica ediyorum",
+        "Çıkarımlar": [],
+        "Ton ve Dil Analizi": {
+            "ton": "Kibar Şikâyet",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    }
+]
