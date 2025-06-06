@@ -4,8 +4,8 @@
         "Ad Soyad": "Caner Arslan",
         "Adres": "Ortahisar/Trabzon",
         "Tarih(ler)": [
-            "Haziran'da",
-            "1 Haziran'da"
+            "1 Haziran'da",
+            "Haziran'da"
         ],
         "Kurum": "Sayın İlgili",
         "Konu": "YOL SORUNU",
@@ -47,6 +47,29 @@
         ],
         "Ton ve Dil Analizi": {
             "ton": "Sakin",
+            "dil_resmiyeti": "Resmî",
+            "yazim_uyumu": "Orta"
+        }
+    },
+    {
+        "dosya_adi": "ornek_dilekce.pdf",
+        "Ad Soyad": "Zafer AVCI\nİmza",
+        "Adres": "Örnek Mahallesi, Test Sokak, No: 12, Daire: 5, 34710 Kadıköy/İstanbul",
+        "Tarih(ler)": [
+            "2025-06-07"
+        ],
+        "Kurum": "BELEDİYE",
+        "Konu": "AĞAÇ KESİMİ",
+        "Talep": "TALEP BELİRTİLMEMİŞ",
+        "Çıkarımlar": [
+            {
+                "çıkarım_kodu": "ACİLİYET_VE_CİDDİYET",
+                "açıklama": "Sorunun ciddiyetini veya aciliyetini vurguluyor.",
+                "tetikleyen_ifade": "tehlike"
+            }
+        ],
+        "Ton ve Dil Analizi": {
+            "ton": "Resmî ve Nesnel",
             "dil_resmiyeti": "Resmî",
             "yazim_uyumu": "Orta"
         }
@@ -166,12 +189,12 @@
         "Ad Soyad": "Ali Demirtaş",
         "Adres": "Bahçelievler/İstanbul",
         "Tarih(ler)": [
-            "iki haftadır",
-            "Her gün 20:00"
+            "Her gün 20:00",
+            "iki haftadır"
         ],
         "Kurum": "Sayın Yetkili",
         "Konu": "ELEKTRİK KESİNTİSİ",
-        "Talep": "TALEP BELİRTİLMEMİŞ",
+        "Talep": "Gereğinin yapılmasını arz ederim",
         "Çıkarımlar": [
             {
                 "çıkarım_kodu": "TEKRARLAYAN_SORUN",

@@ -15,7 +15,8 @@ class RequestExtractor:
             r"(?:lütfen|rica\s+olunur|rica\s+ederim|rica\s+ederiz)[\s\S]*?[.!?]",
             r"(?:gerekli\s+(?:işlemlerin|tedbirlerin|çalışmaların)[\s\S]*?yapılmasını)[\s\S]*?[.!?]",
             r"(?:bilgilerinize\s+(?:sunar|arz|rica)\s+ederim)[\s\S]*?[.!?]",
-            r"(?:saygılarımla\s+(?:arz\s+ederim|sunarım))[\s\S]*?[.!?]"
+            r"(?:saygılarımla\s+(?:arz\s+ederim|sunarım))[\s\S]*?[.!?]",
+            r"(?:gereğinin\s+yapılmasını)[\s\S]*?arz\s+ederim[\s\S]*?[.!?]"
         ]
         
         # Metni cümlelere böl
@@ -37,7 +38,7 @@ class RequestExtractor:
             son_cumleler = cumleler[-3:]  # Son 3 cümle
             for cumle in son_cumleler:
                 # Talep içeren anahtar kelimeleri ara
-                talep_kelimeleri = ["talep", "rica", "istirham", "lütfen", "gerekli", "bilgilerinize", "saygılarımla"]
+                talep_kelimeleri = ["talep", "rica", "istirham", "lütfen", "gereği", "gerekli", "bilgilerinize", "saygılarımla"]
                 for kelime in talep_kelimeleri:
                     if kelime.lower() in cumle.lower():
                         if cumle not in talepler:

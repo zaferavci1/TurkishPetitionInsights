@@ -78,17 +78,44 @@ if uploaded_file is not None:
             st.info(f"**Adres:** {analysis_results.get('Adres', 'Bulunamadı')}")
 
             st.subheader("Dilekçe Detayları")
-            st.info(f"**Tarih(ler):** {analysis_results.get('Tarih(ler)', 'Bulunamadı')}")
+            
+            dates = analysis_results.get('Tarih(ler)')
+            if isinstance(dates, list) and dates:
+                st.info(f"**Tarih(ler):** {', '.join(dates)}")
+            else:
+                st.info(f"**Tarih(ler):** {dates or 'Bulunamadı'}")
+
             st.info(f"**Kurum:** {analysis_results.get('Kurum', 'Bulunamadı')}")
             st.info(f"**Konu:** {analysis_results.get('Konu', 'Bulunamadı')}")
             st.info(f"**Talep:** {analysis_results.get('Talep', 'Bulunamadı')}")
 
         with col2:
             st.subheader("Metin Analizi")
-            st.info(f"**Ton ve Dil Analizi:** {analysis_results.get('Ton ve Dil Analizi', 'Bulunamadı')}")
-            
+            tone_analysis = analysis_results.get('Ton ve Dil Analizi')
+            if isinstance(tone_analysis, dict):
+                md_output = ""
+                if tone_analysis.get('ton'):
+                    md_output += f"- **Ton:** {tone_analysis['ton']}\n"
+                if tone_analysis.get('dil_resmiyeti'):
+                    md_output += f"- **Dil Resmiyeti:** {tone_analysis['dil_resmiyeti']}\n"
+                if tone_analysis.get('yazim_uyumu'):
+                    md_output += f"- **Yazım Uyumu:** {tone_analysis['yazim_uyumu']}"
+                st.info(md_output)
+            else:
+                st.info(tone_analysis or 'Bulunamadı')
+
             st.subheader("Anlamsal Çıkarımlar")
-            st.info(f"**Çıkarımlar:** {analysis_results.get('Çıkarımlar', 'Bulunamadı')}")
+            inferences = analysis_results.get('Çıkarımlar')
+            if isinstance(inferences, list) and inferences:
+                md_output = ""
+                for inference in inferences:
+                    kodu = inference.get('çıkarım_kodu', '').replace('_', ' ').title()
+                    aciklama = inference.get('açıklama', 'Açıklama yok')
+                    tetikleyen = inference.get('tetikleyen_ifade', '')
+                    md_output += f"- **{kodu}:** {aciklama} *(Tetikleyen: \"{tetikleyen}\")*\n"
+                st.info(md_output)
+            else:
+                st.info(inferences or 'Bulunamadı')
 
         with st.expander("Dilekçe Metnini Görüntüle"):
             st.text_area("Metin", analysis_results.get('Metin', 'Metin çıkarılamadı.'), height=300)
